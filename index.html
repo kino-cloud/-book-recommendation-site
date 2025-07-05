@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>職業別おすすめ本サイト</title>
+  <style>
+    body { font-family: 'Georgia', serif; background: #fdfcfb; color: #333; margin: 0; padding: 0; }
+    header { background: #6b4f4f; color: #fff; padding: 1rem; }
+    header h1 { margin: 0; font-size: 1.5rem; }
+    nav ul { display: flex; flex-wrap: wrap; list-style: none; margin: 0; padding: 0.5rem 0; }
+    nav li { margin: 0.5rem 1rem 0.5rem 0; }
+    nav a { color: #ffebcd; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .container { max-width: 960px; margin: auto; padding: 1rem; }
+    .profession-section { margin-bottom: 3rem; }
+    .profession-section h2 { border-bottom: 3px solid #6b4f4f; padding-bottom: 0.5rem; font-size: 1.25rem; }
+    .book-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+    .book-card { background: #fff; border: 1px solid #ddd; border-radius: 6px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: transform 0.2s; }
+    .book-card:hover { transform: translateY(-4px); }
+    .book-card img { width: 100%; height: auto; display: block; object-fit: cover; }
+    .book-card .info { padding: 0.75rem; }
+    .book-card .info h3 { font-size: 0.95rem; margin: 0.5rem 0 0.25rem; }
+    .book-card .info p { font-size: 0.8rem; margin: 0; color: #555; }
+    footer { background: #f0e6e6; text-align: center; padding: 1rem; font-size: 0.875rem; }
+    @media (max-width: 600px) {
+      nav ul { flex-direction: column; }
+      .book-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>職業別おすすめ本</h1>
+    <nav>
+      <ul>
+        <li><a href="#doctor">医師</a></li>
+        <li><a href="#teacher">教師</a></li>
+        <li><a href="#engineer">エンジニア</a></li>
+        <li><a href="#sales">営業職</a></li>
+        <li><a href="#nurse">看護師</a></li>
+        <li><a href="#public-service">公務員</a></li>
+        <li><a href="#accountant">会計士</a></li>
+        <li><a href="#designer">デザイナー</a></li>
+        <li><a href="#chef">料理人</a></li>
+        <li><a href="#lawyer">弁護士</a></li>
+        <li><a href="#actor">俳優</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <!-- 医師 -->
+    <section id="doctor" class="profession-section">
+      <h2>医師向け</h2>
+      <div class="book-grid">
+        <div class="book-card"><a href="https://www.amazon.co.jp/dp/0805009933" target="_blank"><img src="https://covers.openlibrary.org/b/isbn/0805009933-M.jpg" alt="The House of God" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'"></a><div class="info"><h3>The House of God</h3><p>Samuel Shem</p></div></div>
+        <div class="book-card"><a href="https://www.amazon.co.jp/dp/081298840X" target="_blank"><img src="https://covers.openlibrary.org/b/isbn/081298840X-M.jpg" alt="When Breath Becomes Air" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'"></a><div class="info"><h3>When Breath Becomes Air</h3><p>Paul Kalanithi</p></div></div>
+        <div class="book-card"><a href="https://www.amazon.co.jp/dp/0812981400" target="_blank"><img src="https://covers.openlibrary.org/b/isbn/0812981400-M.jpg" alt="Being Mortal" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'"></a><div class="info"><h3>Being Mortal</h3><p>Atul Gawande</p></div></div>
+        <div class="book-card"><a href="https://www.amazon.co.jp/dp/1439170914" target="_blank"><img src="https://covers.openlibrary.org/b/isbn/1439170914-M.jpg" alt="The Emperor of All Maladies" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'"></a><div class="info"><h3>The Emperor of All Maladies</h3><p>Siddhartha Mukherjee</p></div></div>
+        <div class="book-card"><a href="https://www.amazon.co.jp/dp/0385518059" target="_blank"><img src="https://covers.openlibrary.org/b/isbn/0385518059-M.jpg" alt="Complications" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'"></a><div class="info"><h3>Complications</h3><p>Atul Gawande</p></div></div>
+      </div>
+    </section>
+<!-- 教師 -->
+<section id="teacher" class="profession-section">
+  <h2>教師向け</h2>
+  <div class="book-grid">
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/1118120781" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/1118120781-M.jpg" alt="Teach Like a Champion" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info">
+        <h3>Teach Like a Champion</h3>
+        <p>Doug Lemov</p>
+      </div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/1118901854" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/1118901854-M.jpg" alt="The First Days of School" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info">
+        <h3>The First Days of School</h3>
+        <p>Harry K. Wong</p>
+      </div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0140170290" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0140170290-M.jpg" alt="Mindstorms" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info">
+        <h3>Mindstorms</h3>
+        <p>Seymour Papert</p>
+      </div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0201380105" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0201380105-M.jpg" alt="Visible Learning" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info">
+        <h3>Visible Learning</h3>
+        <p>John Hattie</p>
+      </div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0787966736" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0787966736-M.jpg" alt="The Courage to Teach" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info">
+        <h3>The Courage to Teach</h3>
+        <p>Parker J. Palmer</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- エンジニア -->
+<section id="engineer" class="profession-section">
+  <h2>エンジニア向け</h2>
+  <div class="book-grid">
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0132350882" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780132350884-M.jpg" alt="Clean Code" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Clean Code</h3><p>Robert C. Martin</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/020161622X" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/020161622X-M.jpg" alt="The Pragmatic Programmer" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>The Pragmatic Programmer</h3><p>Andrew Hunt／David Thomas</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0735619670" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0735619670-M.jpg" alt="Code Complete" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Code Complete</h3><p>Steve McConnell</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0201633612" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0201633612-M.jpg" alt="Design Patterns" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Design Patterns</h3><p>Erich Gamma 他</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0201835959" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0201835959-M.jpg" alt="The Mythical Man-Month" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>The Mythical Man-Month</h3><p>Frederick P. Brooks Jr.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 営業職 -->
+<section id="sales" class="profession-section">
+  <h2>営業職向け</h2>
+  <div class="book-grid">
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0070511136" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0070511136-M.jpg" alt="SPIN Selling" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>SPIN Selling</h3><p>Neil Rackham</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/1594631905" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/1594631905-M.jpg" alt="To Sell Is Human" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>To Sell Is Human</h3><p>Daniel H. Pink</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/1591844355" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/1591844355-M.jpg" alt="The Challenger Sale" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>The Challenger Sale</h3><p>Matthew Dixon 他</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0814437687" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0814437687-M.jpg" alt="The Sales Acceleration Formula" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>The Sales Acceleration Formula</h3><p>Mark Roberge</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0060529936" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0060529936-M.jpg" alt="How to Win Friends and Influence People" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>How to Win Friends and Influence People</h3><p>Dale Carnegie</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 看護師 -->
+<section id="nurse" class="profession-section">
+  <h2>看護師向け</h2>
+  <div class="book-grid">
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0323320930" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0323320930-M.jpg" alt="Critical Care Nursing" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Critical Care Nursing</h3><p>Linda D. Urden</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9780803628493" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780803628493-M.jpg" alt="Fundamentals of Nursing" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">      </a>
+      <div class="info"><h3>Fundamentals of Nursing</h3><p>Patricia A. Potter</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9780323480409" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780323480409-M.jpg" alt="Pathophysiology" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">      </a>
+      <div class="info"><h3>Pathophysiology</h3><p>Caroline S. Bunker</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9781496383360" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9781496383360-M.jpg" alt="Manual of Nursing Practice" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">      </a>
+      <div class="info"><h3>Manual of Nursing Practice</h3><p>Adrianne Dill Linton</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9780803624808" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780803624808-M.jpg" alt="Nurse's Pocket Guide" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">      </a>
+      <div class="info"><h3>Nurse's Pocket Guide</h3><p>Marilynn E. Doenges</p></div>
+    </div>
+  </div>
+</section>
+<!-- 公務員 -->
+<section id="public-service" class="profession-section">
+  <h2>公務員向け</h2>
+  <div class="book-grid">
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0198735458" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0198735458-M.jpg" alt="The Oxford Handbook of Public Management" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>The Oxford Handbook of Public Management</h3><p>Ewan Ferlie 他</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9780674544959" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780674544959-M.jpg" alt="Bureaucracy" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Bureaucracy</h3><p>James Q. Wilson</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9780521615638" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780521615638-M.jpg" alt="Street-Level Bureaucracy" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Street-Level Bureaucracy</h3><p>Michael Lipsky</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9780205505117" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780205505117-M.jpg" alt="Public Administration" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Public Administration</h3><p>Rosenbloom 他</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9780262538198" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780262538198-M.jpg" alt="The Responsive City" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>The Responsive City</h3><p>Stephen Goldsmith</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 会計士 -->
+<section id="accountant" class="profession-section">
+  <h2>会計士向け</h2>
+  <div class="book-grid">
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/1259894022" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/1259894022-M.jpg" alt="Financial Accounting Theory" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Financial Accounting Theory</h3><p>William R. Scott</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9780470921915" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780470921915-M.jpg" alt="Accounting Theory" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Accounting Theory</h3><p>Jayne Godfrey</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/1118745970" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/1118745970-M.jpg" alt="Intermediate Accounting" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Intermediate Accounting</h3><p>Donald E. Kieso 他</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/013408596X" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/013408596X-M.jpg" alt="Advanced Accounting" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Advanced Accounting</h3><p>Joe Ben Hoyle 他</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0470392291" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0470392291-M.jpg" alt="Forensic Accounting" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Forensic Accounting</h3><p>Joseph T. Wells</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- デザイナー -->
+<section id="designer" class="profession-section">
+  <h2>デザイナー向け</h2>
+  <div class="book-grid">
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9780465050659" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780465050659-M.jpg" alt="The Design of Everyday Things" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>The Design of Everyday Things</h3><p>Don Norman</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9780321965516" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780321965516-M.jpg" alt="Don't Make Me Think" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Don't Make Me Think</h3><p>Steve Krug</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9780761169253" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780761169253-M.jpg" alt="Steal Like an Artist" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Steal Like an Artist</h3><p>Austin Kleon</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9781118980822" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9781118980822-M.jpg" alt="Designing Brand Identity" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Designing Brand Identity</h3><p>Alina Wheeler</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9783721201457" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9783721201457-M.jpg" alt="Grid Systems" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Grid Systems</h3><p>Josef Müller-Brockmann</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 料理人 -->
+<section id="chef" class="profession-section">
+  <h2>料理人向け</h2>
+  <div class="book-grid">
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0060899220" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0060899220-M.jpg" alt="Kitchen Confidential" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Kitchen Confidential</h3><p>Anthony Bourdain</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9780471169679" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780471169679-M.jpg" alt="The Professional Chef" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>The Professional Chef</h3><p>The Culinary Institute of America</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9780684800011" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9780684800011-M.jpg" alt="On Food and Cooking" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>On Food and Cooking</h3><p>Harold McGee</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9781476753836" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9781476753836-M.jpg" alt="Salt, Fat, Acid, Heat" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Salt, Fat, Acid, Heat</h3><p>Samin Nosrat</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/9781607741968" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/9781607741968-M.jpg" alt="The Flavor Bible" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>The Flavor Bible</h3><p>Karen Page／Andrew Dornenburg</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 弁護士 -->
+<section id="lawyer" class="profession-section">
+  <h2>弁護士向け</h2>
+  <div class="book-grid">
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0061120081" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0061120081-M.jpg" alt="To Kill a Mockingbird" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>To Kill a Mockingbird</h3><p>Harper Lee</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0300185463" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0300185463-M.jpg" alt="Just Mercy" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Just Mercy</h3><p>Bryan Stevenson</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/024130392X" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/024130392X-M.jpg" alt="Thinking Like a Lawyer" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Thinking Like a Lawyer</h3><p>Frederick Schauer</p></div>
+    </div>
+    <div class="book-card"> 
+      <a href="https://www.amazon.co.jp/dp/0674410435" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0674410435-M.jpg" alt="The Trial" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>The Trial</h3><p>Franz Kafka</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0141184340" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0141184340-M.jpg" alt="A Civil Action" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>A Civil Action</h3><p>Jonathan Harcourt</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 俳優 -->
+<section id="actor" class="profession-section">
+  <h2>俳優向け</h2>
+  <div class="book-grid">
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0060571997" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0060571997-M.jpg" alt="An Actor Prepares" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>An Actor Prepares</h3><p>Constantin Stanislavski</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/074347712X" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/074347712X-M.jpg" alt="Audition" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Audition</h3><p>Michael Shurtleff</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/0195100647" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/0195100647-M.jpg" alt="The Actor and the Target" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>The Actor and the Target</h3><p>Declan Donnellan</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/030771896X" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/030771896X-M.jpg" alt="The Intent to Live" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>The Intent to Live</h3><p>Larry O’Connor</p></div>
+    </div>
+    <div class="book-card">
+      <a href="https://www.amazon.co.jp/dp/080504986X" target="_blank">
+        <img src="https://covers.openlibrary.org/b/isbn/080504986X-M.jpg" alt="Respect for Acting" onerror="this.src='https://via.placeholder.com/200x300?text=No+Cover'">
+      </a>
+      <div class="info"><h3>Respect for Acting</h3><p>Uta Hagen</p></div>
+    </div>
+  </div>
+</section>
+
